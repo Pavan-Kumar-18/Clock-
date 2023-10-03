@@ -415,3 +415,60 @@ ul.m-marking:after {
     justify-content: center;
     align-items: center;
 } 
+
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url("https://db.onlinewebfonts.com/t/61b4eaee5625d47bb7215f205e44f580.ttf") format("truetype");
+}
+
+/* Container for the clock */
+#main-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d2d;
+}
+
+#outer {
+    width: 80vmin;
+    height: 80vmin;
+    border-radius: 50%;
+    background: radial-gradient(#9b9b9b 50%, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner {
+    width: 70vmin;
+    height: 70vmin;
+    border-radius: 50%;
+    background: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 767px) {
+    #outer {
+        width: 60vmin;
+        height: 60vmin;
+    }
+
+    #inner {
+        width: 50vmin;
+        height: 50vmin;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+    
+}
+
+
